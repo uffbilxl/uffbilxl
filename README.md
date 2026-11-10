@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/bilal-cyber-lab.svg" width="100%" alt="Bilal Arshad | Linux systems, cyber security and LLM security research">
+  <img src="./assets/bilal-cyber-lab-ebpf.svg" width="100%" alt="Bilal Arshad | Linux systems, cyber security and eBPF rootkit detection">
 </p>
 
 <p align="center">
@@ -12,7 +12,17 @@
 
 > **Linux is where I do my best work.** I build test environments, automate repetitive tasks with Bash and Python, and follow the logs or packets when something breaks.
 
-## 01 / Projects from the lab
+## 01 / Final-year project
+
+**Stealth Kernel Rootkit Detection using eBPF-based Runtime Monitoring**
+
+What if a process is missing from the process list, but the Linux scheduler still runs it? That mismatch is the idea behind my final-year project. I’m developing a cross-view detector that uses eBPF probes and tracepoints to compare kernel activity with what user-space tools report.
+
+**Detection targets** · Hidden processes, files and network connections, plus signs of system-call hooking.
+
+**Planned evaluation** · Compare the detector with `rkhunter` and `chkrootkit` in an isolated Ubuntu VM. I’ll measure detection rate, false positives and performance overhead in clean and rootkit-infected runs.
+
+## 02 / Projects from the lab
 
 | Project | What I built or tested |
 | :--- | :--- |
@@ -22,18 +32,6 @@
 | **Cisco network lab** | Configured VLANs and trunk links in Packet Tracer and checked connectivity across segments. |
 
 [Explore my projects and hackathon work →](https://bilalarshad.co.uk/#projects)
-
-## 02 / Current research
-
-**Can automated security tools spot privacy leakage across a conversation?**
-
-My final-year project compares how reliably LLM security testing tools detect privacy leakage from a direct request versus a sequence of messages that builds towards disclosure.
-
-```text
-Single turn   →  One direct request for sensitive data
-Multi-turn    →  A sequence of prompts building towards disclosure
-Evaluation    →  Compare what the tools flag in each setting
-```
 
 ## 03 / Beyond the lab
 
