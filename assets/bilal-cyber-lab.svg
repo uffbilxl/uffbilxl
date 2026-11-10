@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="344" viewBox="0 0 960 344" role="img" aria-labelledby="title">
+<title id="title">Bilal Arshad / Cyber Lab</title>
+<defs>
+<linearGradient id="bg"><stop stop-color="#101827"/><stop offset="1" stop-color="#151632"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#7467ff" stop-opacity=".34"/><stop offset="1" stop-color="#7467ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="trace"><stop stop-color="#63f5c2"/><stop offset="1" stop-color="#afa5ff"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#8798c0" stroke-opacity=".18"/></pattern>
+</defs>
+<rect x="1" y="1" width="958" height="342" rx="18" fill="url(#bg)" stroke="#43516e" stroke-width="2"/>
+<ellipse cx="744" cy="172" rx="211" ry="143" fill="url(#glow)"/>
+<rect x="527" y="58" width="399" height="228" fill="url(#grid)"/>
+<path d="M1 47H959M1 298H959" stroke="#394964"/>
+<g fill="#63f5c2"><circle cx="34" cy="24" r="4"/><circle cx="864" cy="24" r="4"/></g>
+<g font-family="monospace">
+<text x="48" y="29" fill="#bfd2e8" font-size="14" letter-spacing="2">UFFBILXL / CYBER LAB</text>
+<text x="878" y="29" fill="#63f5c2" font-size="13">ONLINE</text>
+<text x="48" y="103" fill="#63f5c2" font-size="16" letter-spacing="2">USER PROFILE / BIRMINGHAM, UK</text>
+<text x="44" y="170" fill="#f6f8ff" font-size="65" font-weight="bold" letter-spacing="-4">Bilal Arshad</text>
+<text x="49" y="218" fill="#cbd5f0" font-size="20">Linux systems · Cyber security</text>
+<text x="49" y="247" fill="#cbd5f0" font-size="20">LLM security research</text>
+<text x="49" y="326" fill="#aebcda" font-size="14">~/uffbilxl</text>
+<text x="912" y="326" text-anchor="end" fill="#aebcda" font-size="14">PROFILE / 01</text>
+</g>
+<g fill="none" stroke="url(#trace)" stroke-width="2">
+<path opacity=".64" d="M549 117h93l31 31m-98 71h65l33-27m115-44 33-33h94m-127 78 38 38h70M726 114V82l24-24h51M726 234v26l-22 22h-75"/>
+<path opacity=".35" d="M573 146h47l24 24h22m122 0h33l24 24h73M665 68v18l29 29m66 119 23 23h64"/>
+<path fill="#121e32" d="M697 114h58l32 32v56l-32 32h-58l-32-32v-56z"/>
+<path opacity=".35" d="M704 126h44l27 27v42l-27 27h-44l-27-27v-42z"/>
+<path stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="m702 161 15 13-15 13m26 1h22"/>
+</g>
+<g fill="#63f5c2"><circle cx="549" cy="117" r="3"/><circle cx="575" cy="219" r="3"/><circle cx="629" cy="282" r="3"/></g>
+<g fill="#afa5ff"><circle cx="915" cy="115" r="3"/><circle cx="896" cy="231" r="3"/><circle cx="801" cy="58" r="3"/></g>
+</svg>
